@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Personality Quz</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h3>Personality Quiz</h3>
+      </div>
+      <div id="quizArea">
+        <form>
+          <div class="form-group">
+            <p>In the past week I've felt mostly (please check all that apply):</p>
+            <input type="checkbox" name="feelings" value="0">Depressed/lonely/alienated<br>
+            <input type="checkbox" name="feelings" value="0">Nervous<br>
+            <input type="checkbox" name="feelings" value="0">Uneasy<br>
+            <input type="checkbox" name="feelings" value="1">Alright<br>
+            <input type="checkbox" name="feelings" value="1">Like things are starting to work out for me<br>
+            <input type="checkbox" name="feelings" value="2">Like the kind of the world<br>
+          </div>
+          <div class="form-group">
+            <p>When I think of the future I feel mostly...</p>
+            <input type="checkbox" name="future" value="0">Hopeless<br>
+            <input type="checkbox" name="future" value="0">Like nothing will change<br>
+            <input type="checkbox" name="future" value="0">That it's unknowable and that's terrifying<br>
+            <input type="checkbox" name="future" value="1">Interested in finding out what'll happen<br>
+            <input type="checkbox" name="future" value="1">Like things might swing in my favor<br>
+            <input type="checkbox" name="future" value="2">Excited about what I've got planned<br>
+          </div>
+          <div class="for-group">
+            <p>Which words describe you in social situations?</p>
+            <input type="checkbox" name="social" value="0">A pariah<br>
+            <input type="checkbox" name="social" value="0">A weirdo who handles them with all the grace of an overweight thirteen year old boy making his way onto to the dance floor<br>
+            <input type="checkbox" name="social" value="0">A reluctant participant<br>
+            <input type="checkbox" name="social" value="1">A little nervous around people I've just met, but otherwise fine.<br>
+            <input type="checkbox" name="social" value="1">A person who enjoys themselves around others.<br>
+            <input type="checkbox" name="social" value="2">The life of the party<br>
+          </div>
+          <div class="form-group">
+            <p>Which of the following are you afraid of?</p>
+            <input type="checkbox" name="fear" value="0">Dying alone<br>
+            <input type="checkbox" name="fear" value="0">Never finding where I belong<br>
+            <input type="checkbox" name="fear" value="0">Not fulfilling my potentional<br>
+            <input type="checkbox" name="fear" value="1">Not living long enough to do all the awesome things I want to do<br>
+            <input type="checkbox" name="fear" value="1">Not getting my dream girl/guy<br>
+            <input type="checkbox" name="fear" value="2">What's fear?<br>
+          </div>
+          <div class="form-group">
+            <p>You've got a problem at work. How do you handle it?</p>
+            <input type="checkbox" name="problem" value="0">I don't handle it<br>
+            <input type="checkbox" name="problem" value="0">By pretending it didn't happen<br>
+            <input type="checkbox" name="problem" value="0">By being passive-aggressive about it<br>
+            <input type="checkbox" name="problem" vlaue="1">By cautiously approaching the situation and trying to mediate my way through it<br>
+            <input type="checkbox" name="problem" value="1">By going to a supervisor<br>
+            <input type="checkbox" name="problem" value="2">I handle all my problems head-on.<br>
+          </div>
+          <button class="btn btn-lg btn-success" type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="well" id="miserable">
+        <div class="text-center">
+          <h5>You're personality type is <em>Miserable</em></h5>
+        </div>
+      </div>
+      <div class="well" id="nervous">
+        <div class="text-center">
+          <h5>You're personality type is <em>Nervous</em></h5>
+        </div>
+      </div>
+      <div class="well" id="adjusted">
+        <div class="text-center">
+          <h5>You're personality type is <em>Reasonably well-adjusted</em></h5>
+        </div>
+      </div>
+      <div class="well" id="koolaid">
+        <div class="text-center">
+          <h5>You're personality type is <em>Koolaid guzzler</em></h5>
+        </div>
+        <p>You might think you're a gray wolf, but you've actually just been gorging yourself
+          on the koolaid of ideology</p>
+      </div>
+    </div>
+  </body>
+</html>
